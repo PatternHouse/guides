@@ -166,3 +166,5 @@ a {
    text-decoration: none;
    color: inherit;
 }
+
+.data a, .data span, .data tr, .data td { white-space: pre; }
