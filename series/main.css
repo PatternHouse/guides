@@ -26,6 +26,17 @@
       font-family: 'Oxygen', sans-serif;
       font-size: 2.15vw;
    }
+   .pa {
+      white-space: pre;
+      background-color: #333;
+      color: white;
+      border: none;
+      padding: 5px 5px;
+      border-radius: 10px;
+      font-family: 'Titillium Web', sans-serif;
+      font-size: 2.15vw;
+      width: fit-content;
+   }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -55,6 +66,17 @@
       text-align: left;
       font-family: 'Oxygen', sans-serif;
       font-size: 1.85vw;
+   }
+   .pb {
+      white-space: pre;
+      background-color: #333;
+      color: white;
+      border: none;
+      padding: 5px 5px;
+      border-radius: 10px;
+      font-family: 'Titillium Web', sans-serif;
+      font-size: 1.85vw;
+      width: fit-content;
    }
 }
 
@@ -86,6 +108,17 @@
       font-family: 'Oxygen', sans-serif;
       font-size: 1.6vw;
    }
+   .pc {
+      white-space: pre;
+      background-color: #333;
+      color: white;
+      border: none;
+      padding: 5px 5px;
+      border-radius: 10px;
+      font-family: 'Titillium Web', sans-serif;
+      font-size: 1.6vw;
+      width: fit-content;
+   }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -115,6 +148,17 @@
       text-align: left;
       font-family: 'Oxygen', sans-serif;
       font-size: 1.1vw;
+   }
+   .pd {
+      white-space: pre;
+      background-color: #333;
+      color: white;
+      border: none;
+      padding: 5px 5px;
+      border-radius: 10px;
+      font-family: 'Titillium Web', sans-serif;
+      font-size: 1.1vw;
+      width: fit-content;
    }   
 }
 
@@ -146,6 +190,17 @@
       font-family: 'Oxygen', sans-serif;
       font-size: 1.1vw;
    }
+   .pe {
+      white-space: pre;
+      background-color: #333;
+      color: white;
+      border: none;
+      padding: 5px 5px;
+      border-radius: 10px;
+      font-family: 'Titillium Web', sans-serif;
+      font-size: 1.1vw;
+      width: fit-content;
+   }
 }
 
 .main-container {
@@ -167,13 +222,8 @@ a {
    color: inherit;
 }
 
-.pattern {
-   white-space: pre;
-   background-color: black;
-   color: white;
-   border: none;
-   padding: 5px 5px;
-   border-radius: 10px;
+br {
+   font-size: 3px;
 }
 
-.data a, .data span, .data tr, .data td { white-space: pre; }
+.data a, .data span, .data tr, .data td { white-space: pre-wrap; font-size: 10px}
