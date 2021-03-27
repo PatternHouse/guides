@@ -1,0 +1,168 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+   .sc-a {
+      width: 600px;
+      text-align: center;
+   }
+   .ha {
+      font-family: 'Playfair Display', serif;
+      font-size: 3.5vw;
+   }
+   .na {
+      padding: 5px 10px;
+      font-family: 'Titillium Web', sans-serif;
+      font-size: 2.15vw;
+      text-align: left;
+   }
+   .cta {
+      padding: 5px 10px;
+      text-align: left;
+      font-family: 'Ubuntu', sans-serif;
+      font-size: 2.1vw;
+   }
+   .cba {
+      padding: 5px 10px;
+      text-align: left;
+      font-family: 'Oxygen', sans-serif;
+      font-size: 2.15vw;
+   }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+   .sc-b {
+      width: 100%;
+      text-align: center;
+   }
+   .hb {
+      font-family: 'Playfair Display', serif;
+      font-size: 3vw;
+   }
+   .nb {
+      padding: 5px 10px;
+      font-family: 'Titillium Web', sans-serif;
+      font-size: 1.85vw;
+      text-align: left;
+   }
+   .ctb {
+      padding: 5px 10px;
+      text-align: left;
+      font-family: 'Ubuntu', sans-serif;
+      font-size: 1.8vw;
+   }
+   .cbb {
+      padding: 5px 10px;
+      text-align: left;
+      font-family: 'Oxygen', sans-serif;
+      font-size: 1.85vw;
+   }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+   .sc-c {
+      width: 90%;
+      text-align: center;
+   }
+   .hc {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.75vw;
+   }
+   .nc {
+      padding: 5px 10px;
+      font-family: 'Titillium Web', sans-serif;
+      font-size: 1.6vw;
+      text-align: left;
+   }
+   .ctc {
+      padding: 5px 10px;
+      text-align: left;
+      font-family: 'Ubuntu', sans-serif;
+      font-size: 1.55vw;
+   }
+   .cbc {
+      padding: 5px 10px;
+      text-align: left;
+      font-family: 'Oxygen', sans-serif;
+      font-size: 1.6vw;
+   }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+   .sc-d {
+      width: 80%;
+      text-align: center;
+   }
+   .hd {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.25vw;
+   }
+   .nd {
+      padding: 5px 10px;
+      font-family: 'Titillium Web', sans-serif;
+      font-size: 1.1vw;
+      text-align: left;
+   }
+   .ctd {
+      padding: 5px 10px;
+      text-align: left;
+      font-family: 'Ubuntu', sans-serif;
+      font-size: 1vw;
+   }
+   .cbd {
+      padding: 5px 10px;
+      text-align: left;
+      font-family: 'Oxygen', sans-serif;
+      font-size: 1.1vw;
+   }   
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+   .sc-e {
+      width: 70%;
+      text-align: center;
+   }
+   .he {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.25vw;
+   }
+   .ne {
+      padding: 5px 10px;
+      font-family: 'Titillium Web', sans-serif;
+      font-size: 1.1vw;
+      text-align: left;
+   }
+   .cte {
+      padding: 5px 10px;
+      text-align: left;
+      font-family: 'Ubuntu', sans-serif;
+      font-size: 1vw;
+   }
+   .cbe {
+      padding: 5px 10px;
+      text-align: left;
+      font-family: 'Oxygen', sans-serif;
+      font-size: 1.1vw;
+   }
+}
+
+.main-container {
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+
+hr {
+   border: 0;
+   height: 1px;
+   background: #333;
+   background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+a {
+   text-decoration: none;
+   color: inherit;
+}
