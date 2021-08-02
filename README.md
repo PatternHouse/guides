@@ -1,3 +1,3 @@
-# PatternHouse Guides
+# PatternHouse Metadata
 Provides details to understand the logic behind the code.
-Website: https://guides.patternhouse.tk
+Website: https://base.patternhouse.tk [Coming Soon]
